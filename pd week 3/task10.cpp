@@ -1,0 +1,60 @@
+#include <iostream>
+using namespace std;
+main(){
+
+int num1;
+int num2;
+int num3;
+int num4;
+int num5;
+int num6;
+int num7;
+int num8;
+int num9;
+int num10;
+int num11;
+int num12;
+int num13;
+int num14;
+int num15;
+cout<<"Enter first number ";
+cin>>num1;
+cout<<"Enter second number ";
+cin>>num2;
+cout<<"Enter third number ";
+cin>>num3;
+cout<<"Enter forth number ";
+cin>>num4;
+cout<<"Enter fifth number ";
+cin>>num5;
+cout<<"Enter sixth number ";
+cin>>num6;
+cout<<"Enter seventh number ";
+cin>>num7;
+cout<<"Enter eigth number ";
+cin>>num8;
+cout<<"Enter ninth number ";
+cin>>num9 ;
+cout<<"Enter tenth number ";
+cin>>num10 ;
+cout<< "Enter eleventh number ";
+cin>>num11 ;
+cout<<"Enter twelve number ";
+cin>>num12;
+cout<<"Enter thirteen number ";
+cin>>num13;
+cout<<"Enter fourteen number ";
+cin>>num14;
+cout<<"Enter fifteen number ";
+cin>>num15;
+int add;
+add = num1 + num2 +num3 + num4 + num5 ;
+int multiply;
+multiply = num6 * num7 * num8 * num9 * num10 ;
+int subtract;
+subtract = num11 - num12 - num13 -num14 - num15 ;
+int result ;
+result = add + multiply - subtract ;
+cout<< "the result is"<< result;
+}
+

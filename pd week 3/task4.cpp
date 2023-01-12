@@ -1,27 +1,36 @@
 #include <iostream>
 using namespace std;
-main(){
-string Name;
-int Marks1;
-int Marks2;
-int Marks3;
-int Marks4;
-int Marks5;
-float percentage;
-cout<<" Enter your name";
-cin>>Name;
+void percentage(string ,int , int , int , int , int );
+main()
+{
+string name;
+int marks1;
+int marks2;
+int marks3;
+int marks4;
+int marks5;
+while (true)
+{
+cout<<" Enter your name:  ";
+cin>>name;
 cout<<" Enter subject 01 marks:  ";
-cin>>Marks1;
+cin>>marks1;
 cout<<" enter subject 02 marks:  ";
-cin>>Marks2;
+cin>>marks2;
 cout<<"enter subject 03 marks:   ";
-cin>>Marks3;
+cin>>marks3;
 cout<<" Enter subject 04 marks:   ";
-cin>>Marks4;
+cin>>marks4;
 cout<<" Enter subject 05 marks:   ";
-cin>>Marks5;
+cin>>marks5;
+percentage(name , marks1 , marks2 , marks3 , marks4 , marks5 );
+}
+}
+void percentage(string name ,int marks1 , int marks2 , int marks3 , int marks4 , int marks5)
+{
 double totalMarks;
-totalMarks = Marks1 + Marks2 + Marks3 + Marks4 + Marks5 ;
+totalMarks = marks1 + marks2 + marks3 + marks4 + marks5 ;
+float percentage;
 percentage = (totalMarks / 500) * 100 ;
-cout<<" your percentage:  "<<percentage ;
+cout<<" your percentage:  "<<percentage <<endl;
 }

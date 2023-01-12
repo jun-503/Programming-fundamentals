@@ -16,6 +16,6 @@ cout<<"enter your inter marks:  ";
 cin>>inter;
 cout<<"enter your ecat marks:  ";
 cin>>ecat;
-aggregate = (ecat / 400) * 50 + (matric / 1100) * 10  + (inter / 1100) * 40 ;
+aggregate = (ecat / 400) * 50 + (matric / 1100) * 10  + (inter / 550) * 40 ;
 cout<<"your aggregate is"<<aggregate;
 }

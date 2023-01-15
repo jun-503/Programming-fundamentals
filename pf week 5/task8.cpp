@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-void fn(int number);
-void fn1(int number);
+void position(int number);
+void position1(int number);
 main()
 {
     int number, digit1, digit2;
@@ -11,11 +11,11 @@ main()
     digit2 = number % 10;
     digit1 = number / 10;
 
-    fn(digit1);
-    fn1(digit2);
+    position(digit1);
+    position2(digit2);
 }
 
-void fn(int number)
+void position(int number)
 {
 
     if (number == 2)
@@ -57,7 +57,7 @@ void fn(int number)
     }
 }
 
-void fn1(int number)
+void position2(int number)
 {
     if (number == 1)
     {

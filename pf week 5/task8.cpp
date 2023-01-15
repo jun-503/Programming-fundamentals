@@ -28,7 +28,7 @@ void position(int number)
         cout << "thirty";
     }
 
-    if (number == 4)
+    if (number== 4)
     {
         cout << "forty";
     }
